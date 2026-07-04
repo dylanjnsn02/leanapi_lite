@@ -1,10 +1,10 @@
 # leanapi-lite
 
-A terminal HTTP client — Postman for your terminal — built in Rust. A guided, prompt-driven request builder walks you through method, URL, params, headers, auth, cookies, and body, then shows a pretty-printed, syntax-highlighted response. No TUI, no mouse, just fast prompts and Enter.
+A terminal HTTP client — Postman for your terminal — built in Rust. A guided, prompt-driven request builder walks you through method, URL, params, headers, auth, cookies, and body, then shows a pretty-printed, syntax-highlighted response. 
 
-[insert image]
+[[Demo]](https://raw.githubusercontent.com/dylanjnsn02/leanapi_lite/refs/heads/main/images/gif.gif)
 
-A lean, no-TUI port of [leanapi](https://github.com/dylanjnsn02/leanapi), the Go/Bubble Tea original.
+A lean, no-TUI port of [leanapi](https://github.com/dylanjnsn02/leanapi).
 
 ## Features
 
