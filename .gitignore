@@ -22,3 +22,6 @@ target
 
 # macOS
 .DS_Store
+
+# Cross-compiled release binaries staged for GitHub Releases
+dist

@@ -17,10 +17,20 @@ A lean, no-TUI port of [leanapi](https://github.com/dylanjnsn02/leanapi).
 
 ## Installation
 
+### Quick install (macOS/Linux)
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/dylanjnsn02/leanapi_lite/main/install.sh | sh
+```
+
+Downloads the right prebuilt binary for your OS/arch from [Releases](https://github.com/dylanjnsn02/leanapi_lite/releases) and installs it as `leanapi_lite` in `~/.local/bin` (override with `LEANAPI_LITE_INSTALL_DIR`). Pin a specific version with `LEANAPI_LITE_VERSION=v0.1.0`. Windows users: grab `leanapi-lite-windows-amd64.exe` directly from the Releases page.
+
+### From source
+
 Requires Rust 1.85+ (edition 2024).
 
 ```bash
-git clone <this-repo-url>
+git clone https://github.com/dylanjnsn02/leanapi_lite.git
 cd leanapi_lite
 cargo build --release
 ./target/release/leanapi-lite
